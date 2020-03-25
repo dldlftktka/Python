@@ -26,12 +26,12 @@ while count < 5:
 
         arr1 = list(set(arr1) - set(arr2))
         k = len(arr1)
-
-        if m != k:
+        m =  m-1
+        
+        if m == k:
             arr3.append(arr2)
-            m =  m-1
         else:
-            pass
+            m = m+1
 
         n = len(arr3)
         arr2 = []

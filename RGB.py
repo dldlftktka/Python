@@ -11,4 +11,5 @@ except KeyboardInterrupt:           # 인터럽
     print('x: {}, y:{}, RGB={}     '.format(RGB))
     print("\b\bCtrl + C를 눌러서 프로그램을 종료")
     os.system('Pause')
+
     
